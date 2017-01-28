@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Vue.js">
+        <meta property="og:title" content="Auto-Layout for Sketch">
         <meta property="og:description" content="Auto-Layout for Sketch.">
         <meta property="og:image" content="https://animaapp.github.io/docs/images/logo.png">
 
@@ -27,7 +27,7 @@
 
         <!-- this needs to be loaded before guide's inline scripts -->
         <script src="/docs/js/vue.js"></script>
-        <script>window.PAGE_TYPE = "api"</script>
+        <script>window.PAGE_TYPE = "videos"</script>
 
         <!-- ga -->
         <script>
@@ -100,9 +100,15 @@
     </ul>
     <div class="list">
         <h2>
-            API
+            Videos
         </h2>
         <ul class="menu-root">
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/videos/index.html" class="sidebar-link current"></a>
+                </li>
             
         </ul>
     </div>
@@ -113,7 +119,7 @@
 </div>
 
 
-<div class="content api with-sidebar ">
+<div class="content videos with-sidebar ">
     
     <h2 id="Global-Config"><a href="#Global-Config" class="headerlink" title="Global Config"></a>Global Config</h2><p><code>Vue.config</code> is an object containing Vue’s global configurations. You can modify its properties listed below before bootstrapping your application:</p>
 <h3 id="silent"><a href="#silent" class="headerlink" title="silent"></a>silent</h3><ul>
@@ -1420,15 +1426,15 @@
           '#search-query-sidebar'
         ].forEach(function (selector) {
           if (!document.querySelector(selector)) return
-          // search index defaults to v2
+          // search index defaults to v1
           var match = window.location.pathname.match(/^\/(v\d+)/)
-          var version = match ? match[1] : 'v2'
+          var version = match ? match[1] : 'v1'
           docsearch({
-            appId: 'BH4D9OD16A',
-            apiKey: '85cc3221c9f23bfbaa4e3913dd7625ea',
-            indexName: 'vuejs',
+            appId: 'TR7SWOEVCC',
+            apiKey: '9ee40c1d2a8d5ebe38c342648279c3e5',
+            indexName: 'docs',
+            debug: true,
             inputSelector: selector,
-            algoliaOptions: { facetFilters: ["version:" + version] }
           })
         })
         </script>

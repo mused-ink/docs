@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Size — Vue.js">
+        <meta property="og:title" content="Size — Auto-Layout for Sketch">
         <meta property="og:description" content="Auto-Layout for Sketch.">
         <meta property="og:image" content="https://animaapp.github.io/docs/images/logo.png">
 
@@ -169,7 +169,7 @@
                     
                 
                 <li>
-                    <a href="/docs/v1/guide/orientations.html" class="sidebar-link">Orientations</a>
+                    <a href="/docs/v1/guide/orientations.html" class="sidebar-link">Orientation</a>
                 </li>
             
                 
@@ -231,7 +231,7 @@
     
       <h1>Size</h1>
     
-    <h2 id="Width-and-Height"><a href="#Width-and-Height" class="headerlink" title="Width and Height"></a>Width and Height</h2><p>You can set a <code>Layer</code> <code>width</code> and <code>height</code> by checking the <code>width</code> and <code>height</code> checkboxes.<br>When you check the <code>width</code> or <code>height</code> box, Auto-Layout will set the current value as the constraint value.<br>The taken value will be either by <code>pixels</code> or by <code>percent</code>, depending on the current toggle state.</p>
+    <h2 id="Width-amp-Height"><a href="#Width-amp-Height" class="headerlink" title="Width &amp; Height"></a>Width &amp; Height</h2><p>You can set a <code>Layer</code> <code>width</code> and <code>height</code> by checking the <code>width</code> and <code>height</code> checkboxes.<br>When you check the <code>width</code> or <code>height</code> box, Auto-Layout will set the current value as the constraint value.<br>The taken value will be either by <code>pixels</code> or by <code>percent</code>, depending on the current toggle state.</p>
 <h2 id="Min-amp-Max"><a href="#Min-amp-Max" class="headerlink" title="Min &amp; Max"></a>Min &amp; Max</h2><p>You can set the <code>miniumum</code> or <code>maximum</code> value of the <code>width</code> or the <code>height</code> of a <code>Layer</code>  </p>
 <p>Once set, the layer <code>width</code> or <code>height</code> will never exceeds the min/max values, no matter what the <code>Artboard</code> size is.</p>
 <h2 id="Custom-Height"><a href="#Custom-Height" class="headerlink" title="Custom Height"></a>Custom Height</h2><p>In some cases you want to extend the height of an artboard further than the default platform screen sizes, in order to show how the design looks when the user scrolls down.</p>
@@ -274,15 +274,15 @@
           '#search-query-sidebar'
         ].forEach(function (selector) {
           if (!document.querySelector(selector)) return
-          // search index defaults to v2
+          // search index defaults to v1
           var match = window.location.pathname.match(/^\/(v\d+)/)
-          var version = match ? match[1] : 'v2'
+          var version = match ? match[1] : 'v1'
           docsearch({
-            appId: 'BH4D9OD16A',
-            apiKey: '85cc3221c9f23bfbaa4e3913dd7625ea',
-            indexName: 'vuejs',
+            appId: 'TR7SWOEVCC',
+            apiKey: '9ee40c1d2a8d5ebe38c342648279c3e5',
+            indexName: 'docs',
+            debug: true,
             inputSelector: selector,
-            algoliaOptions: { facetFilters: ["version:" + version] }
           })
         })
         </script>

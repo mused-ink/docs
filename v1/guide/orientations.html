@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Orientations — Auto-Layout for Sketch</title>
+        <title>Orientation — Auto-Layout for Sketch</title>
         <meta charset="utf-8">
         <meta name="description" content="Auto-Layout for Sketch.">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Orientations — Vue.js">
+        <meta property="og:title" content="Orientation — Auto-Layout for Sketch">
         <meta property="og:description" content="Auto-Layout for Sketch.">
         <meta property="og:image" content="https://animaapp.github.io/docs/images/logo.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Orientations — Vue.js">
+        <meta name="twitter:title" content="Orientation — Vue.js">
         <meta name="twitter:description" content="Auto-Layout for Sketch.">
         <meta name="twitter:image" content="https://animaapp.github.io/docs/images/logo.png">
 
@@ -169,7 +169,7 @@
                     
                 
                 <li>
-                    <a href="/docs/v1/guide/orientations.html" class="sidebar-link current">Orientations</a>
+                    <a href="/docs/v1/guide/orientations.html" class="sidebar-link current">Orientation</a>
                 </li>
             
                 
@@ -229,7 +229,7 @@
 
 <div class="content guide with-sidebar orientations-guide">
     
-      <h1>Orientations</h1>
+      <h1>Orientation</h1>
     
     <h2 id="Portrait"><a href="#Portrait" class="headerlink" title="Portrait"></a>Portrait</h2><h2 id="Landscape"><a href="#Landscape" class="headerlink" title="Landscape"></a>Landscape</h2>
     
@@ -269,15 +269,15 @@
           '#search-query-sidebar'
         ].forEach(function (selector) {
           if (!document.querySelector(selector)) return
-          // search index defaults to v2
+          // search index defaults to v1
           var match = window.location.pathname.match(/^\/(v\d+)/)
-          var version = match ? match[1] : 'v2'
+          var version = match ? match[1] : 'v1'
           docsearch({
-            appId: 'BH4D9OD16A',
-            apiKey: '85cc3221c9f23bfbaa4e3913dd7625ea',
-            indexName: 'vuejs',
+            appId: 'TR7SWOEVCC',
+            apiKey: '9ee40c1d2a8d5ebe38c342648279c3e5',
+            indexName: 'docs',
+            debug: true,
             inputSelector: selector,
-            algoliaOptions: { facetFilters: ["version:" + version] }
           })
         })
         </script>
