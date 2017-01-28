@@ -8,9 +8,6 @@
   </div>
 <% } %>
 <div class="content <%- page.type ? page.type + ' with-sidebar' : '' %> <%- page.type === 'guide' ? page.path.replace(/.+\//, '').replace('.html', '') + '-guide' : '' %>">
-    <% if (page.type) { %>
-      <%- partial('partials/ad') %>
-    <% } %>
     <% if (page.title.trim()) { %>
       <h1><%- page.title %><%- page.type === 'examples' ? ' Example' : '' %></h1>
     <% } %>
@@ -27,7 +24,7 @@
     <% } %>
     <div class="footer">
       Caught a mistake or want to contribute to the documentation?
-      <a href="https://github.com/vuejs/vuejs.org/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank">
+      <a href="https://github.com/AnimaApp/Auto-Layout/blob/master/src/<%- page.path.replace(/\.html$/, '.md') %>" target="_blank">
         Edit this page on Github!
       </a>
     </div>
