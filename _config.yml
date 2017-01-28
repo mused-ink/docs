@@ -3,17 +3,17 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Vue.js
+title: Auto-Layout for Sketch
 subtitle:
-description: "The Progressive JavaScript Framework"
-author: Evan You
+description: 
+author: Anima Team
 email:
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://vuejs.org
-root: /
+url: https://animaapp.github.io/docs
+root: /docs/
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -97,7 +97,7 @@ markdown:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:vuejs/vuejs.org.git
+  repository: git@github.com:AnimaApp/docs.git
 
 feed:
   type: atom
