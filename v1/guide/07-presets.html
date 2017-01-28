@@ -191,7 +191,137 @@
     
       <h1>Presets</h1>
     
-    <h2 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h2><h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><h2 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h2><h2 id="Custom"><a href="#Custom" class="headerlink" title="Custom"></a>Custom</h2>
+    <p><img src="https://cdn-images-1.medium.com/max/800/1*sXp3RmLwwkWkFh0yhn-CwQ.png" alt=""></p>
+<p>Presets are pre-defined <code>Artboard</code> sizes of real world screen sizes devices.<br>Once you’ve defined Auto-Layout on your design, you can easily change <code>Artboard</code> sizes to these presets.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*rkekHHmb9dDTCXRTzW3ZdQ.png" alt=""></p>
+<h2 id="iOS"><a href="#iOS" class="headerlink" title="iOS"></a>iOS</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Device</th>
+<th style="text-align:center">Width</th>
+<th style="text-align:center">Height</th>
+<th style="text-align:center">Scale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">iPhone 4</td>
+<td style="text-align:center">320</td>
+<td style="text-align:center">480</td>
+<td style="text-align:center">2</td>
+</tr>
+<tr>
+<td style="text-align:center">iPhone SE</td>
+<td style="text-align:center">320</td>
+<td style="text-align:center">568</td>
+<td style="text-align:center">2</td>
+</tr>
+<tr>
+<td style="text-align:center">iPhone 7</td>
+<td style="text-align:center">375</td>
+<td style="text-align:center">667</td>
+<td style="text-align:center">2</td>
+</tr>
+<tr>
+<td style="text-align:center">iPhone 7+</td>
+<td style="text-align:center">414</td>
+<td style="text-align:center">736</td>
+<td style="text-align:center">3</td>
+</tr>
+<tr>
+<td style="text-align:center">iPad Air</td>
+<td style="text-align:center">768</td>
+<td style="text-align:center">1024</td>
+<td style="text-align:center">2</td>
+</tr>
+<tr>
+<td style="text-align:center">iPad Pro</td>
+<td style="text-align:center">1024</td>
+<td style="text-align:center">1366</td>
+<td style="text-align:center">2</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong> <code>Scale</code> means that the number of pixels is multiplied according to the scale value.</strong></p>
+<ul>
+<li>For example in iPhone 7 the screen size is 375x667 points, but 750x1334 actual pixels since Scale is 2.</li>
+</ul>
+</blockquote>
+<h2 id="Android"><a href="#Android" class="headerlink" title="Android"></a>Android</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Device</th>
+<th style="text-align:center">Width</th>
+<th style="text-align:center">Height</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Android Phone</td>
+<td style="text-align:center">360</td>
+<td style="text-align:center">640</td>
+</tr>
+<tr>
+<td style="text-align:center">Android Tablet 7’</td>
+<td style="text-align:center">600</td>
+<td style="text-align:center">960</td>
+</tr>
+<tr>
+<td style="text-align:center">Android Tablet 9’</td>
+<td style="text-align:center">768</td>
+<td style="text-align:center">1024</td>
+</tr>
+<tr>
+<td style="text-align:center">Android Desktop</td>
+<td style="text-align:center">1280</td>
+<td style="text-align:center">850</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Web"><a href="#Web" class="headerlink" title="Web"></a>Web</h2><table>
+<thead>
+<tr>
+<th style="text-align:center">Device</th>
+<th style="text-align:center">Width</th>
+<th style="text-align:center">Height</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Desktop HD</td>
+<td style="text-align:center">1440</td>
+<td style="text-align:center">1024</td>
+</tr>
+<tr>
+<td style="text-align:center">Desktop</td>
+<td style="text-align:center">1024</td>
+<td style="text-align:center">1024</td>
+</tr>
+<tr>
+<td style="text-align:center">Tablet Portrait</td>
+<td style="text-align:center">768</td>
+<td style="text-align:center">1024</td>
+</tr>
+<tr>
+<td style="text-align:center">Mobile Portrait</td>
+<td style="text-align:center">320</td>
+<td style="text-align:center">1024</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Custom"><a href="#Custom" class="headerlink" title="Custom"></a>Custom</h2><h3 id="Presets-Editor"><a href="#Presets-Editor" class="headerlink" title="Presets Editor"></a>Presets Editor</h3><p>The Plugin comes with a default collection of presets mentioned above. However you can easily add, edit, import and export your own presets.  </p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*qllGDNJ9EGl-eKx5JJpe1A.png" alt=""></p>
+<h3 id="Import"><a href="#Import" class="headerlink" title="Import"></a>Import</h3><ol>
+<li>Click “Platform” -&gt; “Custom”</li>
+<li>The “Presets Editor” shows up, click “Import”</li>
+<li>Navigate and select the collection json file</li>
+<li>Done!</li>
+</ol>
+<p><img src="https://cdn-images-1.medium.com/max/1000/1*yOFi5gnyrRw4r0rO2f7OyA.gif" alt=""></p>
+<h3 id="Export"><a href="#Export" class="headerlink" title="Export"></a>Export</h3><p>So you’ve made the effort to create a perfect collection of presets and now your colleagues are jealous. Lucky enough you can become the hero of the day by just exporting your collection and sharing it with them.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*qZ4DTGWhIzaqSYmQ4BzCyg.png" alt=""></p>
+
     
       <div class="guide-links">
         
