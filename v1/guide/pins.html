@@ -220,6 +220,10 @@
             
         </ul>
     </div>
+    <div style="font-size: 12px; margin-top: 160px;">
+        <p>Built with ❤️   &nbsp in NYC & TLV</p>
+        <p>Docs powered by <a style="color: #4222f1;" href="https://hexo.io">Hexo.io</a> & <a style="color: #4222f1;" href="https://vuejs.org">Vue.js</a></p>
+    </div>
 </div>
 
 
@@ -227,9 +231,21 @@
     
       <h1>Pins</h1>
     
-    <h2 id="Simple-Pins"><a href="#Simple-Pins" class="headerlink" title="Simple Pins"></a>Simple Pins</h2><p>Hi</p>
-<h2 id="Advanced-Pins"><a href="#Advanced-Pins" class="headerlink" title="Advanced Pins"></a>Advanced Pins</h2><p>Bye</p>
-
+    <h2 id="Simple-Pinning"><a href="#Simple-Pinning" class="headerlink" title="Simple Pinning"></a>Simple Pinning</h2><p>Simple pinning allows to pin a layer to its parent with the following:</p>
+<ul>
+<li>Top</li>
+<li>Right</li>
+<li>Bottom</li>
+<li>Left</li>
+<li>Center Horizontally</li>
+<li>Center Vertically</li>
+</ul>
+<p>When selecting a pin, Auto-Layout will set the pin constant value as the current pixel value.  </p>
+<p><em>For example if a layer is 20px from the right and you select <code>Pin to Right</code>, the <code>right</code> pin constant value will be set to 20px.</em></p>
+<p>Once a pin is set, Auto-Layout will enforce the pin value when the artboard is resized.  </p>
+<p><em>For example if you pinned a layer to the right by 20px, you can resize the artboard by dragging its right side and you’ll notice the layer always stays 20px from the right.</em></p>
+<p><strong>A <code>Layer</code> is always pinned to its <code>Parent</code>. A parent can be either an <code>Artboard</code> or a <code>Group</code></strong></p>
+<h2 id="Advanced-Pinning"><a href="#Advanced-Pinning" class="headerlink" title="Advanced Pinning"></a>Advanced Pinning</h2><h3 id="Pinning-by-Pixels"><a href="#Pinning-by-Pixels" class="headerlink" title="Pinning by Pixels"></a>Pinning by Pixels</h3><h3 id="Pinning-by-Percent"><a href="#Pinning-by-Percent" class="headerlink" title="Pinning by Percent"></a>Pinning by Percent</h3>
     
       <div class="guide-links">
         
