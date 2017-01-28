@@ -10,23 +10,21 @@
             <% type !== 'api' && site.pages.find({type: type}).sort('order').each(function (p) { %>
                 <% var fileName = p.path.replace(/^.+?\/([\w-]+)\.html/, '$1') %>
                 <% if (type === 'guide') { %>
-                    <% if (fileName === 'installation') { %>
+                    <% if (fileName === '02-installation') { %>
                       <li><h3>Essentials</h3></li>
                     <% } %>
-                    <% if (fileName === 'presets') { %>
+                    <% if (fileName === '07-presets') { %>
                       <li><h3>Advanced</h3></li>
-                    <% } %>
-                    <% if (fileName === 'migration') { %>
-                      <li><h3>Migrating</h3></li>
-                    <% } %>
-                    <% if (fileName === 'comparison') { %>
-                      <li><h3>Meta</h3></li>
                     <% } %>
                 <% } %>
                 <li>
-                    <a href="/<%- p.path %>" class="sidebar-link<%- page.title === p.title ? ' current' : '' %><%- p.is_new ? ' new' : '' %>"><%- p.title %></a>
+                    <a href="/docs/<%- p.path %>" class="sidebar-link<%- page.title === p.title ? ' current' : '' %><%- p.is_new ? ' new' : '' %>"><%- p.title %></a>
                 </li>
             <% }) %>
         </ul>
+    </div>
+    <div style="font-size: 12px; margin-top: 160px;">
+        <p>Built with ❤️   &nbsp in NYC & TLV</p>
+        <p>Docs powered by <a style="color: #4222f1;" href="https://hexo.io">Hexo.io</a> & <a style="color: #4222f1;" href="https://vuejs.org">Vue.js</a></p>
     </div>
 </div>

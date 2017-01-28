@@ -1,6 +1,6 @@
 ---
 title: Symbols
 type: guide
-order: 7
+order: 8
 ---
 

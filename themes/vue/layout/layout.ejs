@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="<%- page.title ? page.title + ' — ' : '' %>Vue.js">
+        <meta property="og:title" content="<%- page.title ? page.title + ' — ' : '' %>Auto-Layout for Sketch">
         <meta property="og:description" content="<%- theme.site_description %>">
         <meta property="og:image" content="https://<%- theme.root_domain %>/images/logo.png">
 
@@ -26,7 +26,7 @@
         <%- css(isIndex ? 'css/index' : 'css/page') %>
 
         <!-- this needs to be loaded before guide's inline scripts -->
-        <script src="/js/vue.js"></script>
+        <script src="/docs/js/vue.js"></script>
         <script>window.PAGE_TYPE = "<%- page.type %>"</script>
 
         <!-- ga -->
@@ -54,14 +54,14 @@
                     <%- body %>
                 <% } %>
             </div>
-            <script src="/js/smooth-scroll.min.js"></script>
+            <script src="/docs/js/smooth-scroll.min.js"></script>
         <% } else { %>
             <%- body %>
         <% } %>
 
         <!-- main custom script for sidebars, version selects etc. -->        
-        <script src="/js/css.escape.js"></script>
-        <script src="/js/common.js"></script>
+        <script src="/docs/js/css.escape.js"></script>
+        <script src="/docs/js/common.js"></script>
 
         <!-- search -->
         <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
@@ -73,15 +73,15 @@
           '#search-query-sidebar'
         ].forEach(function (selector) {
           if (!document.querySelector(selector)) return
-          // search index defaults to v2
+          // search index defaults to v1
           var match = window.location.pathname.match(/^\/(v\d+)/)
-          var version = match ? match[1] : 'v2'
+          var version = match ? match[1] : 'v1'
           docsearch({
-            appId: 'BH4D9OD16A',
-            apiKey: '85cc3221c9f23bfbaa4e3913dd7625ea',
-            indexName: 'vuejs',
+            appId: 'TR7SWOEVCC',
+            apiKey: '9ee40c1d2a8d5ebe38c342648279c3e5',
+            indexName: 'docs',
+            debug: true,
             inputSelector: selector,
-            algoliaOptions: { facetFilters: ["version:" + version] }
           })
         })
         </script>

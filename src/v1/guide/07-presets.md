@@ -1,16 +1,14 @@
 ---
-title: Arrange in Grid
+title: Presets
 type: guide
-order: 8
+order: 7
 ---
 
 ## iOS
 
-Hi
 
 ## Android
 
-Bye
 
 ## Web
 

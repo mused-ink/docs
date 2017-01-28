@@ -17,6 +17,10 @@ Auto-Layout for Sketch supports Sketch version 41 and up.
 
 Detailed release notes for each version are available on [GitHub](https://github.com/vuejs/vue/releases).
 
-## Sketch Plugin
+## Install Auto-Layout Sketch Plugin
 
-Download the zipped .sketchplugin file from here, unzip and double click to install Auto-Layout Sketch Plugin.
+1. Download the latest [AutoLayout.sketchplugin](https://github.com/AnimaApp/Auto-Layout/raw/master/AutoLayoutPlugin.zip) file
+2. Unzip it
+2. Double click the unzipped file to install
+
+![](/docs/images/installation1.png)

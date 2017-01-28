@@ -1,5 +1,5 @@
 ---
-type: api
+type: videos
 ---
 
 ## Global Config

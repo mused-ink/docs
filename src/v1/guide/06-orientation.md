@@ -1,7 +1,7 @@
 ---
-title: Orientations
+title: Orientation
 type: guide
-order: 5
+order: 6
 ---
 
 ## Portrait
