@@ -4,9 +4,9 @@
   
   <link href="/docs/atom.xml" rel="self"/>
   
-  <link href="https://animaapp.github.io/"/>
+  <link href="https://animaapp.github.io/docs/"/>
   <updated>2017-01-28T03:57:26.000Z</updated>
-  <id>https://animaapp.github.io/</id>
+  <id>https://animaapp.github.io/docs/</id>
   
   <author>
     <name>Anima Team</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Auto-Layout released</title>
-    <link href="https://animaapp.github.io/2019/12/29/0.0.1-release/"/>
-    <id>https://animaapp.github.io/2019/12/29/0.0.1-release/</id>
+    <link href="https://animaapp.github.io/docs/2019/12/29/0.0.1-release/"/>
+    <id>https://animaapp.github.io/docs/2019/12/29/0.0.1-release/</id>
     <published>2019-12-29T15:00:00.000Z</published>
     <updated>2017-01-28T03:57:26.000Z</updated>
     
