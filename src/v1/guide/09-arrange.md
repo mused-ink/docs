@@ -4,6 +4,8 @@ type: guide
 order: 9
 ---
 
+![](/docs/images/arrange.png)
+
 When changing `Artboard` sizes sometimes things can get messy. For example they sometimes overlap each other.  
 That's why we added the `Arrange in Grid` button which not suprisingly all it does it to arrange the artboards in a grid.
 

@@ -29,17 +29,21 @@ Once a pin is set, Auto-Layout will enforce the pin value when the artboard is r
 
 ### Pin to Parent
 
-* **A `Layer` is always pinned to its `Parent`**
-* **A parent can be either an `Artboard` or a `Group`**
-* **Pinning a `Layer` to a `Sibling` layer is currently not supported**
+* A `Layer` is always pinned to its `Parent`
+* A parent can be either an `Artboard` or a `Group`
+* Pinning a `Layer` to a `Sibling` layer is currently **not** supported
 
+`Layer` in an `Artboard`
 ![](/docs/images/pins1.png)
+
+`Layer` in a `Group`
 ![](/docs/images/pins2.png)
 
 ## Advanced 
 
 ![](/docs/images/pins-advanced.png)
 
+* To reveal the advanced pinning panel click `Pins`
 * You can pin a layer either by `pixels` or by `percent`.
 * `Pixels` values are in the left text boxes, `Percent` values are in the right text boxes.
 * Use the `Toggle` button to select which type of pinning.
