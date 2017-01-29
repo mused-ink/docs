@@ -34,9 +34,18 @@ Once a pin is set, Auto-Layout will enforce the pin value when the artboard is r
 ![](/docs/images/pins1.png)
 ![](/docs/images/pins2.png)
 
-
 ## Advanced 
+
+* You can pin a layer either by `pixels` or by `percent`.
+* `Pixels` values are in the left text boxes, `Percent` values are in the right text boxes.
+* Use the `Toggle` button to select which type.
+
+![](https://cl.ly/0x3m3L2Z4628/download/Screen%20Recording%202017-01-29%20at%2002.51%20PM.gif)
 
 ### Pinning by Pixels
 
+![](/docs/images/pins3.png)
+
 ### Pinning by Percent
+
+![](/docs/images/pins4.png)
