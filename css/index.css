@@ -34,7 +34,7 @@ pre .symbol,
 pre .symbol .string,
 pre .value,
 pre .regexp {
-  color: #4222f1;
+  color: #3921ef;
 }
 pre .title {
   color: #a6e22e;
@@ -63,7 +63,7 @@ pre .apache .tag,
 pre .apache .cbracket,
 pre .tex .command,
 pre .prompt {
-  color: #4222f1;
+  color: #3921ef;
 }
 pre .comment,
 pre .java .annotation,
@@ -144,14 +144,14 @@ a.button {
   border-radius: 2em;
   display: inline-block;
   color: #fff;
-  background-color: #5134f2;
+  background-color: #3921ef;
   transition: all 0.15s ease;
   box-sizing: border-box;
-  border: 1px solid #5134f2;
+  border: 1px solid #4933f0;
 }
 a.button.white {
   background-color: #fff;
-  color: #4222f1;
+  color: #3921ef;
 }
 .highlight {
   overflow-x: auto;
@@ -308,7 +308,7 @@ a.button.white {
   display: block;
 }
 #nav .nav-dropdown a:hover {
-  color: #4222f1;
+  color: #3921ef;
 }
 #nav .arrow {
   display: inline-block;
@@ -360,7 +360,7 @@ body.docs #nav {
 }
 .nav-link:hover,
 .nav-link.current {
-  border-bottom: 3px solid #4222f1;
+  border-bottom: 3px solid #3921ef;
 }
 .search-query {
   height: 30px;
@@ -378,7 +378,7 @@ body.docs #nav {
   vertical-align: middle !important;
 }
 .search-query:focus {
-  border-color: #4222f1;
+  border-color: #3921ef;
 }
 #logo {
   display: inline-block;
@@ -462,7 +462,7 @@ body.docs #nav {
 }
 .sidebar .sidebar-link.current {
   font-weight: 600;
-  color: #4222f1;
+  color: #3921ef;
 }
 .sidebar .sidebar-link.new:after {
   content: "NEW";
@@ -470,7 +470,7 @@ body.docs #nav {
   font-size: 10px;
   font-weight: 600;
   color: #fff;
-  background-color: #4222f1;
+  background-color: #3921ef;
   line-height: 14px;
   padding: 0 4px;
   border-radius: 3px;
@@ -480,11 +480,11 @@ body.docs #nav {
   top: -1px;
 }
 .sidebar .sidebar-link:hover {
-  border-bottom: 2px solid #4222f1;
+  border-bottom: 2px solid #3921ef;
 }
 .sidebar .section-link.active {
   font-weight: bold;
-  color: #4222f1;
+  color: #3921ef;
 }
 .sidebar .main-menu {
   margin-bottom: 20px;
@@ -504,10 +504,10 @@ body.docs #nav {
   display: inline-block;
 }
 .sidebar .become-backer {
-  border: 1px solid #4222f1;
+  border: 1px solid #3921ef;
   border-radius: 2em;
   display: inline-block;
-  color: #4222f1;
+  color: #3921ef;
   font-size: 0.8em;
   width: 125px;
   padding: 4px 0;
@@ -545,13 +545,7 @@ body.docs #nav {
     transform: translate(0, 0);
   }
 }
-body {
-  background-color: #727f80;
-}
-#logo span {
-  font-size: 1.2em;
-}
-#logo img {
+#logo {
   display: none;
 }
 .sidebar {
@@ -636,7 +630,7 @@ body {
   padding: 0 2em;
 }
 #highlights .point h2 {
-  color: #4222f1;
+  color: #3921ef;
   font-size: 1.5em;
   font-weight: 400;
   margin: 0;
@@ -699,6 +693,6 @@ body {
   }
   #highlights .point:before {
     content: "—";
-    color: #4222f1;
+    color: #3921ef;
   }
 }

@@ -34,7 +34,7 @@ pre .symbol,
 pre .symbol .string,
 pre .value,
 pre .regexp {
-  color: #4222f1;
+  color: #3921ef;
 }
 pre .title {
   color: #a6e22e;
@@ -63,7 +63,7 @@ pre .apache .tag,
 pre .apache .cbracket,
 pre .tex .command,
 pre .prompt {
-  color: #4222f1;
+  color: #3921ef;
 }
 pre .comment,
 pre .java .annotation,
@@ -144,14 +144,14 @@ a.button {
   border-radius: 2em;
   display: inline-block;
   color: #fff;
-  background-color: #5134f2;
+  background-color: #3921ef;
   transition: all 0.15s ease;
   box-sizing: border-box;
-  border: 1px solid #5134f2;
+  border: 1px solid #4933f0;
 }
 a.button.white {
   background-color: #fff;
-  color: #4222f1;
+  color: #3921ef;
 }
 .highlight {
   overflow-x: auto;
@@ -308,7 +308,7 @@ a.button.white {
   display: block;
 }
 #nav .nav-dropdown a:hover {
-  color: #4222f1;
+  color: #3921ef;
 }
 #nav .arrow {
   display: inline-block;
@@ -360,7 +360,7 @@ body.docs #nav {
 }
 .nav-link:hover,
 .nav-link.current {
-  border-bottom: 3px solid #4222f1;
+  border-bottom: 3px solid #3921ef;
 }
 .search-query {
   height: 30px;
@@ -378,7 +378,7 @@ body.docs #nav {
   vertical-align: middle !important;
 }
 .search-query:focus {
-  border-color: #4222f1;
+  border-color: #3921ef;
 }
 #logo {
   display: inline-block;
@@ -588,7 +588,7 @@ ul.demo li {
 }
 .sidebar .sidebar-link.current {
   font-weight: 600;
-  color: #4222f1;
+  color: #3921ef;
 }
 .sidebar .sidebar-link.new:after {
   content: "NEW";
@@ -596,7 +596,7 @@ ul.demo li {
   font-size: 10px;
   font-weight: 600;
   color: #fff;
-  background-color: #4222f1;
+  background-color: #3921ef;
   line-height: 14px;
   padding: 0 4px;
   border-radius: 3px;
@@ -606,11 +606,11 @@ ul.demo li {
   top: -1px;
 }
 .sidebar .sidebar-link:hover {
-  border-bottom: 2px solid #4222f1;
+  border-bottom: 2px solid #3921ef;
 }
 .sidebar .section-link.active {
   font-weight: bold;
-  color: #4222f1;
+  color: #3921ef;
 }
 .sidebar .main-menu {
   margin-bottom: 20px;
@@ -630,10 +630,10 @@ ul.demo li {
   display: inline-block;
 }
 .sidebar .become-backer {
-  border: 1px solid #4222f1;
+  border: 1px solid #3921ef;
   border-radius: 2em;
   display: inline-block;
-  color: #4222f1;
+  color: #3921ef;
   font-size: 0.8em;
   width: 125px;
   padding: 4px 0;
@@ -740,7 +740,7 @@ ul.demo li {
 }
 .content h3:after {
   content: "#";
-  color: #4222f1;
+  color: #3921ef;
   position: absolute;
   left: -0.7em;
   bottom: -2px;
@@ -765,13 +765,13 @@ ul.demo li {
   position: inherit;
 }
 .content a {
-  color: #4222f1;
+  color: #3921ef;
   font-weight: 600;
 }
 .content blockquote {
   margin: 2em 0;
   padding-left: 20px;
-  border-left: 4px solid #4222f1;
+  border-left: 4px solid #3921ef;
 }
 .content blockquote p {
   font-weight: 600;
@@ -795,7 +795,7 @@ ul.demo li {
   background-color: #fcfcfc;
 }
 .content > table th {
-  background-color: #4222f1;
+  background-color: #3921ef;
   color: #fff;
   padding-top: 0.85em;
   padding-bottom: 0.85em;
@@ -884,7 +884,7 @@ ul.demo li {
   }
   .nav-link:hover,
   .nav-link.current {
-    border-bottom: 2px solid #4222f1;
+    border-bottom: 2px solid #3921ef;
   }
   #mobile-bar {
     display: block;
