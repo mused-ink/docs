@@ -4,6 +4,8 @@ type: guide
 order: 4
 ---
 
+![](/docs/images/size.png)
+
 ## Width & Height
 
 You can set a `Layer` `width` and `height` by checking the `width` and `height` checkboxes.  

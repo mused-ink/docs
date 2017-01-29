@@ -6,6 +6,8 @@ order: 3
 
 ## Simple 
 
+![](/docs/images/pins-simple.png)
+
 Simple pinning allows to pin a layer to its parent with the following:
 
 * Top
@@ -36,9 +38,11 @@ Once a pin is set, Auto-Layout will enforce the pin value when the artboard is r
 
 ## Advanced 
 
+![](/docs/images/pins-advanced.png)
+
 * You can pin a layer either by `pixels` or by `percent`.
 * `Pixels` values are in the left text boxes, `Percent` values are in the right text boxes.
-* Use the `Toggle` button to select which type.
+* Use the `Toggle` button to select which type of pinning.
 
 ![](https://cl.ly/0x3m3L2Z4628/download/Screen%20Recording%202017-01-29%20at%2002.51%20PM.gif)
 

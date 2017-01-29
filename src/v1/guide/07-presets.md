@@ -4,8 +4,6 @@ type: guide
 order: 7
 ---
 
-![](https://cdn-images-1.medium.com/max/800/1*sXp3RmLwwkWkFh0yhn-CwQ.png)
-
 Presets are pre-defined `Artboard` sizes of real world screen sizes devices.  
 Once you've defined Auto-Layout on your design, you can easily change `Artboard` sizes to these presets.
 
