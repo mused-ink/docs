@@ -10,13 +10,6 @@ author: Anima Team
 email: contact@animaapp.com
 language:
 
-algolia:
-  applicationID: 'TR7SWOEVCC'
-  apiKey: '9ee40c1d2a8d5ebe38c342648279c3e5'
-  adminApiKey: '2934d792fafc4ab35c4fdc1e175a6d28'
-  indexName: 'docs'
-  chunkSize: 5000
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://animaapp.github.io/docs

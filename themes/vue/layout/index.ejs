@@ -1,3 +1,37 @@
+<style type="text/css">
+
+  .img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#cnt {
+    position: relative;
+}
+
+#img0 {
+    margin-left: 12px;
+    margin-bottom: 8px;
+    width: 44px;
+}
+@media not all and (max-width: 700px) {
+    #img2 {
+        position: absolute;
+        left: 28px;
+        top: 26px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    #img2 {
+        position: absolute;
+        left: 12px;
+        top: 14px;
+        width: 94%;
+    }
+}
+</style>
 <div class="sidebar">
   <ul class="main-menu">
     <%- partial('partials/main_menu', { context: 'sidebar' }) %>
@@ -6,21 +40,26 @@
 
 <div id="hero">
   <div class="inner">
-    <div class="left">
-      <img class="hero-logo" src="/docs/images/logo.png">
-    </div><div class="right">
-      <h2 class="vue">Auto-Layout for Sketch</h2>
+
+    <div class="center" style="text-align: center;">
       <h1>
-        The Auto-Layout for Sketch
+        Auto-Layout for Sketch
       </h1>
+      <h2>
+        Responsive designer, for designers.
+      </h2>
       <p>
-        <a class="button" href="/v2/guide/">GET STARTED</a>
-        <a class="button white" href="https://github.com/AnimaApp/Auto-Layout" target="_blank">GITHUB</a>
+        <a class="button" href="https://github.com/AnimaApp/Auto-Layout/raw/master/AutoLayoutPlugin.zip">DOWNLOAD</a>
+        <a class="button white" href="/docs/v1/guide/">Learn</a>
       </p>
     </div>
   </div>
-</div>
 
+  <div id="cnt" style="text-align: center; max-width: 700px; margin: 0 auto;">
+    <img id="img1" style="width: 100%; max-width: 700px;" src="https://animaapp.s3.amazonaws.com/sketchplugin/autolayout/Apple-Mac-Computer-Screen-PNG.png">
+    <img id="img2" style="max-width: 649px;" src="https://cl.ly/1Q1l342E0j0b/ezgif.com-video-to-gif%20(6).gif">
+</div>
+</div>
 <div id="highlights">
   <div class="inner">
     <div class="point">
@@ -30,7 +69,7 @@
 
     <div class="point">
       <h2>Powerfull</h2>
-      <p>Simple, minimal core with an incrementally adoptable stack that can handle apps of any scale.</p>
+      <p>Generate overview of all screen size in one click.</p>
     </div>
 
     <div class="point">
@@ -42,9 +81,12 @@
   </div>
 </div>
 
-<div id="footer">
-  Released under the <a href="https://opensource.org/licenses/MIT" href="_blank">MIT License</a><br>
-  Copyright &copy; 2016-<%- new Date().getFullYear() %> Anima Team
+
+
+
+<div id="footer" style="color: #7f8c8d;">
+<p>Built with ❤️ &nbsp in NYC & TLV</p>
+  Copyright &copy; 2016-<%- new Date().getFullYear() %> <a style="color: #4222f1;" href="https://www.animaapp.com">Anima Team</a> | Site powered by <a style="color: #4222f1;" href="https://hexo.io">Hexo.io</a> & <a style="color: #4222f1;" href="https://vuejs.org">Vue.js</a>
 </div>
 
 <script>
