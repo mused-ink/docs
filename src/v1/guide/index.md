@@ -10,7 +10,7 @@ order: 2
 
 Auto-Layout is a Sketch Plugin that empowers designers to build responsive designs inside Sketch. 
 
-![](/docs/images/introduction1.png)
+![](https://cl.ly/3Q2P2n1O3m3H/download/Screen%20Recording%202017-01-29%20at%2011.58%20PM.gif)
 
 ## Getting Started
 
@@ -22,7 +22,6 @@ We recommend downloading our Sketch file tutorial and playing around with it whi
 
 [Download](https://cl.ly/2m2J2K3Q0I1X/download/AutoLayout-Tutorial.sketch)
 
-![](/docs/images/introduction3.png)
 
 
 
