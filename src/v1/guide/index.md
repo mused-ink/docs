@@ -14,6 +14,15 @@ Auto-Layout is a Sketch Plugin that empowers designers to build responsive desig
 
 ## Getting Started
 
-The [Installation](02-installation.html) page provides more options of installing Auto-Layout for Sketch. 
+If you have not installed our plugin yet, The [Installation](02-installation.html) page shows how toinstall Auto-Layout for Sketch. 
+
+## Sketch File Tutorial
+
+We recommend downloading our Sketch file tutorial and playing around with it while reading through.
+
+[Download](https://cl.ly/2m2J2K3Q0I1X/download/AutoLayout-Tutorial.sketch)
+
+![](/docs/images/introduction3.png)
+
 
 
