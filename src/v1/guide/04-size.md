@@ -16,8 +16,11 @@ The taken value will be either by `pixels` or by `percent`, depending on the cur
 
 You can set the `miniumum` or `maximum` value of the `width` or the `height` of a `Layer`  
 
-Once set, the layer `width` or `height` will never exceeds the min/max values, no matter what the `Artboard` size is.
+Once set, the layer `width` or `height` will never exceed the min/max values, no matter what the `Artboard` size is.
 
+![](https://cdn-images-1.medium.com/max/800/1*m6_5mu3TV_Idv7OMs2UIZQ.gif)
+
+**To keep the layer pinned to the left rather from the right, set the width to % and uncheck `Right` pin.**
 
 ## Custom Height
 
