@@ -13,7 +13,7 @@
         <meta property="og:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="<%- page.title ? page.title + ' — ' : '' %>Vue.js">
+        <meta name="twitter:title" content="<%- page.title %>">
         <meta name="twitter:description" content="<%- theme.site_description %>">
         <meta name="twitter:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
@@ -73,9 +73,8 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
           var match = window.location.pathname.match(/^\/(v\d+)/)
           var version = match ? match[1] : 'v1'
           docsearch({
-            appId: 'TR7SWOEVCC',
-            apiKey: '9ee40c1d2a8d5ebe38c342648279c3e5',
-            indexName: 'docs',
+            apiKey: 'a0310ab013b58805afb3d17bc12cd527',
+            indexName: 'animaapp',
             debug: true,
             inputSelector: selector,
           })
