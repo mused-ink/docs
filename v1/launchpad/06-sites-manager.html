@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Anima</title>
+        <title>Sites Manager — Anima</title>
         <meta charset="utf-8">
         <meta name="description" content="Auto-Layout for Sketch.">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Auto-Layout for Sketch">
+        <meta property="og:title" content="Sites Manager — Auto-Layout for Sketch">
         <meta property="og:description" content="Auto-Layout for Sketch.">
         <meta property="og:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="">
+        <meta name="twitter:title" content="Sites Manager">
         <meta name="twitter:description" content="Auto-Layout for Sketch.">
         <meta name="twitter:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
@@ -27,7 +27,7 @@
 
         <!-- this needs to be loaded before guide's inline scripts -->
         <script src="/docs/js/vue.js"></script>
-        <script>window.PAGE_TYPE = ""</script>
+        <script>window.PAGE_TYPE = "launchpad"</script>
 
         <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
 0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
@@ -52,7 +52,7 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
   </form>
 </li>
 <li><a href="/docs/v1/guide/" class="nav-link">Auto-Layout</a></li>
-<li><a href="/docs/v1/launchpad/" class="nav-link">Launchpad</a></li>
+<li><a href="/docs/v1/launchpad/" class="nav-link current">Launchpad</a></li>
 <!--<li><a href="/docs/v1/examples/" class="nav-link">Examples</a></li>-->
 
   </ul>
@@ -61,115 +61,107 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
         
             <div id="main" class="fix-sidebar">
                 
-                    <style type="text/css">
-
-  .img {
-    width: 100vw;
-    height: 100vh;
-}
-
-#cnt {
-    position: relative;
-}
-
-#img0 {
-    margin-left: 12px;
-    margin-bottom: 8px;
-    width: 44px;
-}
-@media not all and (max-width: 700px) {
-    #img2 {
-        position: absolute;
-        left: 28px;
-        top: 26px;
-        width: 100%;
-    }
-}
-
-@media all and (max-width: 700px) {
-    #img2 {
-        position: absolute;
-        left: 12px;
-        top: 14px;
-        width: 94%;
-    }
-}
-</style>
-<div class="sidebar">
-  <ul class="main-menu">
-    <li>
+                    
+    <div class="sidebar">
+    <ul class="main-menu">
+        <li>
   <form id="search-form">
     <input type="text" id="search-query-sidebar" class="search-query st-default-search-input">
   </form>
 </li>
 <li><a href="/docs/v1/guide/" class="nav-link">Auto-Layout</a></li>
-<li><a href="/docs/v1/launchpad/" class="nav-link">Launchpad</a></li>
+<li><a href="/docs/v1/launchpad/" class="nav-link current">Launchpad</a></li>
 <!--<li><a href="/docs/v1/examples/" class="nav-link">Examples</a></li>-->
 
-  </ul>
-</div>
-
-<div id="hero">
-  <div class="inner">
-
-    <div class="center" style="text-align: center;">
-      <h1>
-        Welcome to Anima's Documentation
-      </h1>
-      <h2>
-        Modern Designer & Developer Collaboration Workflow
-      </h2>
-      <p>
-        <a class="button" href="/docs/v1/guide/">Auto-Layout</a>
-        <a class="button white" href="/docs/v1/launchpad/">Launchpad</a>
-      </p>
+    </ul>
+    <div class="list">
+        <!--<h2>
+            Launchpad
+        </h2>-->
+        <ul class="menu-root">
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/index.html" class="sidebar-link">Introduction</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/02-install.html" class="sidebar-link">Install</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/03-prepare.html" class="sidebar-link">Prepare</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/04-publish.html" class="sidebar-link">Publish</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/05-manage.html" class="sidebar-link">Manage</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/06-sites-manager.html" class="sidebar-link current">Sites Manager</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/07-analytics.html" class="sidebar-link">Analytics</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/08-custom-domain.html" class="sidebar-link">Custom Domains</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/09-security.html" class="sidebar-link">Security</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/10-availability.html" class="sidebar-link">Availability</a>
+                </li>
+            
+        </ul>
     </div>
-  </div>
-
-  <div id="cnt" style="text-align: center; max-width: 700px; margin: 0 auto;">
-    <img id="img1" style="width: 100%; max-width: 700px;" src="https://animaapp.s3.amazonaws.com/sketchplugin/autolayout/Apple-Mac-Computer-Screen-PNG.png">
-    <img id="img2" style="max-width: 649px;" src="https://cl.ly/1Q1l342E0j0b/ezgif.com-video-to-gif%20(6).gif">
-</div>
-</div>
-<div id="highlights">
-  <div class="inner">
-    <div class="point">
-      <h2>Simple</h2>
-      <p>No learning curve.</p>
+    <div style="font-size: 12px; margin-top: 10px;">
+        <p>Built with ❤️ &nbsp in NYC & TLV</p>
+        <p>Site powered by <a style="color: #4222f1;" href="https://hexo.io">Hexo.io</a> & <a style="color: #4222f1;" href="https://vuejs.org">Vue.js</a></p>
     </div>
-
-    <div class="point">
-      <h2>Powerfull</h2>
-      <p>Generate code in one click.</p>
-    </div>
-
-    <div class="point">
-      <h2>Time-saving</h2>
-      <p>
-        You will save tons of time.
-      </p>
-    </div>
-  </div>
 </div>
 
 
-<div id="footer" style="color: #7f8c8d;">
-<p>Built with ❤️ &nbsp in NYC & TLV</p>
-  Copyright &copy; 2016-2017 <a style="color: #4222f1;" href="https://www.animaapp.com">Anima Team</a> | Site powered by <a style="color: #4222f1;" href="https://hexo.io">Hexo.io</a> & <a style="color: #4222f1;" href="https://vuejs.org">Vue.js</a>
+<div class="content launchpad with-sidebar ">
+    
+      <h1>Sites Manager</h1>
+    
+    <h2 id="Sites-Manager"><a href="#Sites-Manager" class="headerlink" title="Sites Manager"></a>Sites Manager</h2>
+    
+    <div class="footer">
+      Caught a mistake or want to contribute to the documentation?
+      <a href="https://github.com/AnimaApp/docs/blob/master/src/v1/launchpad/06-sites-manager.md" target="_blank">
+        Edit this page on Github!
+      </a>
+    </div>
 </div>
-
-<script>
-var topScrolled = false
-window.addEventListener('scroll', function () {
-  if (window.pageYOffset > 165 && !topScrolled) {
-    topScrolled = true
-    document.getElementById('mobile-bar').classList.remove('top')
-  } else if (window.pageYOffset <= 165 && topScrolled) {
-    topScrolled = false
-    document.getElementById('mobile-bar').classList.add('top')
-  }
-})
-</script>
 
                 
             </div>
