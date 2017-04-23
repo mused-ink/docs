@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Availability — Anima</title>
+        <title>Links — Anima</title>
         <meta charset="utf-8">
         <meta name="description" content="Auto-Layout for Sketch.">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Availability — Anima">
+        <meta property="og:title" content="Links — Anima">
         <meta property="og:description" content="Auto-Layout for Sketch.">
         <meta property="og:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Availability">
+        <meta name="twitter:title" content="Links">
         <meta name="twitter:description" content="Auto-Layout for Sketch.">
         <meta name="twitter:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
@@ -95,7 +95,19 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/docs/v1/launchpad/03-prepare.html" class="sidebar-link">Prepare Website</a>
+                    <a href="/docs/v1/launchpad/03-links.html" class="sidebar-link current">Links</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/03-forms.html" class="sidebar-link">Forms</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/03-videos.html" class="sidebar-link">Videos</a>
                 </li>
             
                 
@@ -128,18 +140,6 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                     <a href="/docs/v1/launchpad/08-custom-domain.html" class="sidebar-link">Custom Domains</a>
                 </li>
             
-                
-                
-                <li>
-                    <a href="/docs/v1/launchpad/09-security.html" class="sidebar-link">Security</a>
-                </li>
-            
-                
-                
-                <li>
-                    <a href="/docs/v1/launchpad/10-availability.html" class="sidebar-link current">Availability</a>
-                </li>
-            
         </ul>
     </div>
     <div style="font-size: 12px; margin-top: 10px;">
@@ -151,15 +151,53 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
 
 <div class="content launchpad with-sidebar ">
     
-      <h1>Availability</h1>
+      <h1>Links</h1>
     
-    <h2 id="Availability"><a href="#Availability" class="headerlink" title="Availability"></a>Availability</h2><p>All websites hosted on <code>Launchpad</code> rely on the Amazon Web Services infrastructure.</p>
-<p>Amazon Web Services has an uptime of %99.9999999.</p>
+    <p>Websites usually contain links to other webpages within the same website or external links to other websites.<br><code>Launchpad</code> enables you to create both internal and external links.</p>
+<center><br><img src="/docs/images/launchpad/launchpad-panel-create-link.png" alt=""><br>The <code>Link</code> button in red<br></center>
+
+
+<p>There are 3 types of links:</p>
+<ol>
+<li><code>Page Link</code> - A <code>Link</code> between different <code>Artboards</code></li>
+<li><code>Anchor Links</code> - A <code>Link</code> within the same <code>Artboard</code></li>
+<li><code>External Links</code> - A <code>Link</code> to an external website</li>
+</ol>
+<h2 id="Page-Links"><a href="#Page-Links" class="headerlink" title="Page Links"></a>Page Links</h2><p>In Launchpad each <code>Artboard</code> represents a <code>Webpage</code>.<br>You can create links between different <code>Artboards</code> (<code>Webpages</code>).</p>
+<ol>
+<li>Select the <code>Layer</code> which will trigger the navigation event. Usually this will be a button.</li>
+<li>Click the <code>Link</code> button in the <code>Launchpad</code> panel.</li>
+<li>Select the target <code>Artboard</code> (<code>Webpage</code>).</li>
+</ol>
+<p><img src="/docs/images/launchpad/create-link.gif" alt=""></p>
+<h2 id="Anchor-Links"><a href="#Anchor-Links" class="headerlink" title="Anchor Links"></a>Anchor Links</h2><p><img src="/docs/images/launchpad/create-anchor-link.gif" alt=""></p>
+<h2 id="External-Links"><a href="#External-Links" class="headerlink" title="External Links"></a>External Links</h2><p>Many times you would want to create links to external websites that aren’t a part of your website.<br>A great example are links to social media websites - Facebook, Twitter, etc..</p>
+<p>To create an <code>External</code> link:</p>
+<ol>
+<li>Select the <code>Layer</code> which will trigger the navigation event. Usually this will be a button.</li>
+<li>Click the <code>Link</code> button in the <code>Launchpad</code> panel.</li>
+<li>Click <code>External Link</code> at the top bar.</li>
+<li>Enter the URL for the external website.</li>
+</ol>
+<p><img src="/docs/images/launchpad/external-link.gif" alt=""></p>
+<h2 id="Removing-Links"><a href="#Removing-Links" class="headerlink" title="Removing Links"></a>Removing Links</h2><p>If you created a link and now you want to remove it:</p>
+<ol>
+<li>Select the <code>Layer</code> with the link you want to remove.</li>
+<li>Click the highlighted <code>Link</code> button in the <code>Launchpad</code> panel.</li>
+<li>Click <code>Remove Link</code></li>
+</ol>
+<p><img src="/docs/images/launchpad/remove-link.gif" alt=""></p>
+<h2 id="Home-page"><a href="#Home-page" class="headerlink" title="Home page"></a>Home page</h2><p>Every website needs a <code>Home</code> page. The <code>Home</code> page is the page that visitors will see first when they visit the site.<br>To set the <code>Home</code> page for your website:</p>
+<ol>
+<li>Select the <code>Artboard</code> (<code>Webpage</code>) that will be the <code>Home</code> page by clicking its name.</li>
+<li>Click <code>Set as Home</code> at the top bar.</li>
+</ol>
+<p><img src="/docs/images/launchpad/home-link.gif" alt=""></p>
 
     
     <div class="footer">
       Caught a mistake or want to contribute to the documentation?
-      <a href="https://github.com/AnimaApp/docs/blob/master/src/v1/launchpad/10-availability.md" target="_blank">
+      <a href="https://github.com/AnimaApp/docs/blob/master/src/v1/launchpad/03-links.md" target="_blank">
         Edit this page on Github!
       </a>
     </div>

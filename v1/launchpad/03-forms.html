@@ -2,18 +2,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Prepare Website — Anima</title>
+        <title>Forms — Anima</title>
         <meta charset="utf-8">
         <meta name="description" content="Auto-Layout for Sketch.">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Prepare Website — Anima">
+        <meta property="og:title" content="Forms — Anima">
         <meta property="og:description" content="Auto-Layout for Sketch.">
         <meta property="og:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Prepare Website">
+        <meta name="twitter:title" content="Forms">
         <meta name="twitter:description" content="Auto-Layout for Sketch.">
         <meta name="twitter:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
@@ -95,7 +95,19 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/docs/v1/launchpad/03-prepare.html" class="sidebar-link current">Prepare Website</a>
+                    <a href="/docs/v1/launchpad/03-links.html" class="sidebar-link">Links</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/03-forms.html" class="sidebar-link current">Forms</a>
+                </li>
+            
+                
+                
+                <li>
+                    <a href="/docs/v1/launchpad/03-videos.html" class="sidebar-link">Videos</a>
                 </li>
             
                 
@@ -128,18 +140,6 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                     <a href="/docs/v1/launchpad/08-custom-domain.html" class="sidebar-link">Custom Domains</a>
                 </li>
             
-                
-                
-                <li>
-                    <a href="/docs/v1/launchpad/09-security.html" class="sidebar-link">Security</a>
-                </li>
-            
-                
-                
-                <li>
-                    <a href="/docs/v1/launchpad/10-availability.html" class="sidebar-link">Availability</a>
-                </li>
-            
         </ul>
     </div>
     <div style="font-size: 12px; margin-top: 10px;">
@@ -151,45 +151,26 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
 
 <div class="content launchpad with-sidebar ">
     
-      <h1>Prepare Website</h1>
+      <h1>Forms</h1>
     
-    <h2 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h2><p>Websites usually contain links to other webpages within the same website or external links to other websites.<br><code>Launchpad</code> enables you to create both internal and external links.</p>
-<h3 id="Creating-Links"><a href="#Creating-Links" class="headerlink" title="Creating Links"></a>Creating Links</h3><p>In Launchpad each <code>Artboard</code> represents a <code>Webpage</code>.<br>You can create links between different <code>Artboards</code> (<code>Webpages</code>).</p>
-<center><br><img src="/docs/images/launchpad/launchpad-panel-create-link.png" alt=""><br>The <code>Link</code> button in red<br></center>
-
-<ol>
-<li>Select the <code>Layer</code> which will trigger the navigation event. Usually this will be a button.</li>
-<li>Click the <code>Link</code> button in the <code>Launchpad</code> panel.</li>
-<li>Select the target <code>Artboard</code> (<code>Webpage</code>).</li>
-</ol>
-<p><img src="/docs/images/launchpad/create-link.gif" alt=""></p>
-<h3 id="Removing-Links"><a href="#Removing-Links" class="headerlink" title="Removing Links"></a>Removing Links</h3><p>If you created a link and now you want to remove it:</p>
-<ol>
-<li>Select the <code>Layer</code> with the link you want to remove.</li>
-<li>Click the highlighted <code>Link</code> button in the <code>Launchpad</code> panel.</li>
-<li>Click <code>Remove Link</code></li>
-</ol>
-<p><img src="/docs/images/launchpad/remove-link.gif" alt=""></p>
-<h2 id="Home"><a href="#Home" class="headerlink" title="Home"></a>Home</h2><p>Every website needs a <code>Home</code> page. The <code>Home</code> page is the page that visitors will see first when they visit the site.<br>To set the <code>Home</code> page for your website:</p>
-<ol>
-<li>Select the <code>Artboard</code> (<code>Webpage</code>) that will be the <code>Home</code> page by clicking its name.</li>
-<li>Click <code>Set as Home</code> at the top bar.</li>
-</ol>
-<p><img src="/docs/images/launchpad/home-link.gif" alt=""></p>
-<h2 id="External-Links"><a href="#External-Links" class="headerlink" title="External Links"></a>External Links</h2><p>Many times you would want to create links to external websites that aren’t a part of your website.<br>A great example are links to social media websites - Facebook, Twitter, etc..</p>
-<p>To create an <code>External</code> link:</p>
-<ol>
-<li>Select the <code>Layer</code> which will trigger the navigation event. Usually this will be a button.</li>
-<li>Click the <code>Link</code> button in the <code>Launchpad</code> panel.</li>
-<li>Click <code>External Link</code> at the top bar.</li>
-<li>Enter the URL for the external website.</li>
-</ol>
-<p><img src="/docs/images/launchpad/external-link.gif" alt=""></p>
+    <p><code>Forms</code> allow visitors of the website to submit information such as their contact information.</p>
+<p>A <code>Form</code> is composed of:</p>
+<ul>
+<li><code>Text Inputs</code> - One or more <code>Text Input</code> layers</li>
+<li><code>Submit Button</code> - One <code>Submit Button</code> layer</li>
+<li><code>Email</code> - <em>optional</em> <code>Email</code> address to send notifications when visitors submit information</li>
+<li><code>Spreadsheet</code> - <em>optional</em> A name for a <code>Spreadsheet</code> which you can view and download as CSV of all the entries</li>
+<li><code>Success page</code> - <em>optional</em> Where to redirect visitor once their submission has been successful.</li>
+<li><code>Failure page</code> - <em>optional</em> Where to redirect visitor in case their submission failed.</li>
+</ul>
+<p><img src="/docs/images/launchpad/form-settings.png" alt=""></p>
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p><img src="/docs/images/launchpad/form.gif" alt=""></p>
+<p><img src="/docs/images/launchpad/contact-form.png" alt=""><br><a href="https://dribbble.com/shots/2082441-Contact-Form-free-sketch-file" target="_blank" rel="external">Example Contact Form</a><br>by Sophinie Som</p>
 
     
     <div class="footer">
       Caught a mistake or want to contribute to the documentation?
-      <a href="https://github.com/AnimaApp/docs/blob/master/src/v1/launchpad/03-prepare.md" target="_blank">
+      <a href="https://github.com/AnimaApp/docs/blob/master/src/v1/launchpad/03-forms.md" target="_blank">
         Edit this page on Github!
       </a>
     </div>
