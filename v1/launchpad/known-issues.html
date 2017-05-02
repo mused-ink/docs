@@ -2,19 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Publish Website — Anima</title>
+        <title>Known Issues — Anima</title>
         <meta charset="utf-8">
         <link rel="shortcut icon" type="image/png" href="https://animaapp.s3.amazonaws.com/home/favicon.png" />
         <meta name="description" content="Empowering designers.">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Publish Website — Anima">
+        <meta property="og:title" content="Known Issues — Anima">
         <meta property="og:description" content="Empowering designers.">
         <meta property="og:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Publish Website">
+        <meta name="twitter:title" content="Known Issues">
         <meta name="twitter:description" content="Empowering designers.">
         <meta name="twitter:image" content="https://animaapp.s3.amazonaws.com/home/Social_cover.png">
 
@@ -118,7 +118,7 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/docs/v1/launchpad/04-publish.html" class="sidebar-link current">Publish Website</a>
+                    <a href="/docs/v1/launchpad/04-publish.html" class="sidebar-link">Publish Website</a>
                 </li>
             
                 
@@ -148,7 +148,7 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/docs/v1/launchpad/known-issues.html" class="sidebar-link">Known Issues</a>
+                    <a href="/docs/v1/launchpad/known-issues.html" class="sidebar-link current">Known Issues</a>
                 </li>
             
         </ul>
@@ -162,56 +162,24 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
 
 <div class="content launchpad with-sidebar ">
     
-      <h1>Publish Website</h1>
+      <h1>Known Issues</h1>
     
-    <p>Publishing your website is a 2 steps process:</p>
-<ol>
-<li><code>Preview</code> - Create a preview website that only you know the link for.</li>
-<li><code>Publish</code> - Once you decide the website is ready, you can <code>Publish</code> it.</li>
-</ol>
-<ul>
-<li>Each <code>Preview</code> has its own <code>version</code> number, which is incrementing every time your create a <code>Preview</code>.</li>
-<li>You can create as many <code>Previews</code> as you want.</li>
-<li>You can always <code>Rollback</code> the live version to a previous <code>Preview</code></li>
-</ul>
-<p><img src="/docs/images/launchpad/publish3.png" alt=""></p>
-<h2 id="Preview"><a href="#Preview" class="headerlink" title="Preview"></a>Preview</h2><p>A <code>Preview</code> version allows you to see your website in a browser before publishing it and making it live to the world.</p>
-<center><br><img src="/docs/images/launchpad/create-preview.png" alt=""><br><code>Create Preview</code> button in red<br></center>
-
-<center><br><img src="/docs/images/launchpad/create-preview-dialog.png" alt=""><br></center>
-
-<ul>
-<li>Each <code>Preview</code> version is assigned with a preview url. i.e <a href="https://launchpad.animaapp.com/preview/i9VcUWl" target="_blank" rel="external">https://launchpad.animaapp.com/preview/i9VcUWl</a></li>
-<li>You can <strong>share</strong> this URL with <strong>anyone</strong> and they would be able to visit the preview website.</li>
-</ul>
-<hr>
-<p>To create a <code>Preview</code> version:</p>
-<ol>
-<li>Click the <code>Create Preview</code> button.</li>
-<li>Leave the <code>Selected Artboards Only</code> checked or uncheck it if you want only the selected <code>Artboards</code> to be included.</li>
-<li>Click <code>Create Preview</code></li>
-<li>Depending on the size of the images, fonts, and amount of <code>Artboards</code> this can take between a few seconds to about a minute.</li>
-<li>Once ready, a dialog will popup and display the unique URL for the <code>Preview</code> website.</li>
-<li>Click <code>Open</code> to visit the <code>Preview</code> website.</li>
-</ol>
-<h2 id="Publish"><a href="#Publish" class="headerlink" title="Publish"></a>Publish</h2><p>You can publish your website by either:</p>
-<ol>
-<li>Directly from the <code>Preview</code> ready dialog, clicking the <code>Publish</code> button.</li>
-<li>From the <code>Manage</code> window clicking <code>Publish</code>.</li>
-<li>Selecting a specific <code>Preview</code> version from the <code>Previews</code> window.</li>
-</ol>
-<h2 id="Rollback"><a href="#Rollback" class="headerlink" title="Rollback"></a>Rollback</h2><p>You can always go back and forward to any <code>Preview</code> version.</p>
-<p><img src="/docs/images/launchpad/publish2.png" alt=""></p>
+    <h2 id="Mixed-styles"><a href="#Mixed-styles" class="headerlink" title="Mixed styles"></a>Mixed styles</h2><p>Mixed styles within the same <code>Text Layer</code> is not supported.<br>In case you have a <code>Text Layer</code> with more than one font, color or any styling, you must separate it to multiple <code>Text Layers</code> in order for it to look the same in the website.</p>
+<p><img src="/docs/images/launchpad/mixed-styles.png" alt=""></p>
+<h2 id="Bullets"><a href="#Bullets" class="headerlink" title="Bullets"></a>Bullets</h2><p><code>Bullets</code> are not yet supported. Please use separate <code>Text Layers</code> for bullets.</p>
+<p><img src="/docs/images/launchpad/bullets.png" alt=""></p>
 
     
       <div class="guide-links">
+        
+          <span>← <a href="/docs/v1/launchpad/08-custom-domain.html">Custom Domains</a></span>
         
         
       </div>
     
     <div class="footer">
       Caught a mistake or want to contribute to the documentation?
-      <a href="https://github.com/AnimaApp/docs/blob/master/src/v1/launchpad/04-publish.md" target="_blank">
+      <a href="https://github.com/AnimaApp/docs/blob/master/src/v1/launchpad/known-issues.md" target="_blank">
         Edit this page on Github!
       </a>
     </div>
