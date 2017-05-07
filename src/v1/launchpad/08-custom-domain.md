@@ -27,7 +27,7 @@ In your domain provider domain settings:
 Create a new `CNAME` record:
 * Type: `CNAME`
 * Host: `www`
-* Points to: `launchpad.animaapp.com`
+* Points to: `ns1.animaapp.com`
 
 **Domain changes take between a few minutes to a few hours to take effect**
 

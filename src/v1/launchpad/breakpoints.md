@@ -4,6 +4,8 @@ type: launchpad
 order: 3
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rBl-zBX8gpw" frameborder="0" allowfullscreen></iframe>
+
 `Breakpoints` are a way to make your design look great on Mobile, Tables or Desktops.
 
 To create `Breakpoints`, design your website in multiple `Artboards` where all the `Artboard` represent the same webpage but for different screen size.
@@ -23,5 +25,5 @@ To mark different `Artboards` as same webpage:
 ![](/docs/images/launchpad/breakpoints/2.gif)
 
 * [Live Website](https://launchpad.animaapp.com/SurfaceSample/home)
-* [Sketch file](/docs/assets/Sophinie-Form-Free.sketch)
+* [Sketch file](/docs/assets/surface-sport-landing-page.sketch)
 * [Original Design](https://dribbble.com/shots/2409031-Free-Sport-landing-page-PSD-Sketch) by Zhenya & Artem

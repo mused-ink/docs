@@ -4,6 +4,8 @@ type: launchpad
 order: 7
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DkTdXPUejq0" frameborder="0" allowfullscreen></iframe>
+
 Publishing your website is a 2 steps process:
 
 1. `Preview` - Create a preview website that only you know the link for.

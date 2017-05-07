@@ -4,6 +4,8 @@ type: launchpad
 order: 5
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6GNAbZy4QsU" frameborder="0" allowfullscreen></iframe>
+
 You can embed a `Video` player in your website by setting a `Layer` as a `Video`.  
 When selecting the `Video` layer, you'll be able to provide a link to a video, that will be presented on the website.
 

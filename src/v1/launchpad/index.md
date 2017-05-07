@@ -36,7 +36,7 @@ Website:
 Live version: [Open](https://launchpad.animaapp.com/betterdesk/home)
 
 Original Sketch template by [BetterDesign.io](https://betterdesign.io/): [Download](https://www.sketchappsources.com/free-source/2470-better-desk-web-template-sketch-freebie-resource.html)
-Launchpad Edited Sketch template [Download](https://www.sketchappsources.com/free-source/2470-better-desk-web-template-sketch-freebie-resource.html)
+Launchpad Edited Sketch template [Download](/docs/assets/BetterDesk.sketch)
 
 ---
 
