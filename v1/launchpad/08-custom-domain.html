@@ -142,13 +142,13 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
                 
                 
                 <li>
-                    <a href="/docs/v1/launchpad/08-custom-domain.html" class="sidebar-link current">Custom Domains</a>
+                    <a href="/docs/v1/launchpad/known-issues.html" class="sidebar-link">Known Issues</a>
                 </li>
             
                 
                 
                 <li>
-                    <a href="/docs/v1/launchpad/known-issues.html" class="sidebar-link">Known Issues</a>
+                    <a href="/docs/v1/launchpad/08-custom-domain.html" class="sidebar-link current">Custom Domains</a>
                 </li>
             
         </ul>
@@ -183,6 +183,17 @@ mixpanel.init("b41fb20c39155097cde1725a43229b9d");</script><!-- end Mixpanel -->
 <li>Host: <code>www</code></li>
 <li>Points to: <code>ns1.animaapp.com</code></li>
 </ul>
+<p>In the next step we are going to setup the “naked” domain which is your domain but without the <code>www</code>.</p>
+<p>Create a new ‘A’ record:</p>
+<ul>
+<li>Type: <code>A</code></li>
+<li>IP Address: <code>35.164.217.247</code></li>
+</ul>
+<p>After performing the 2 steps, your websites should be accessible from:</p>
+<ol>
+<li><a href="http://yourdomain.com" target="_blank" rel="external">http://yourdomain.com</a></li>
+<li><a href="http://www.yourdomain.com" target="_blank" rel="external">http://www.yourdomain.com</a></li>
+</ol>
 <p><strong>Domain changes take between a few minutes to a few hours to take effect</strong></p>
 <blockquote>
 <p>If you need to setup SSL for your custom domain please contact us: support@animaapp.com</p>
