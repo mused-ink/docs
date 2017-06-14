@@ -1,7 +1,7 @@
 ---
 title: Custom Domains
 type: launchpad
-order: 11
+order: 12
 ---
 
 You can use your own domain with `Launchpad`.
@@ -25,9 +25,22 @@ Next thing you'll have to do is create a `CNAME` record that points your domain 
 In your domain provider domain settings:
 
 Create a new `CNAME` record:
+
 * Type: `CNAME`
 * Host: `www`
 * Points to: `ns1.animaapp.com`
+
+In the next step we are going to setup the "naked" domain which is your domain but without the `www`.
+
+Create a new 'A' record:
+
+* Type: `A`
+* IP Address: `35.164.217.247`
+
+After performing the 2 steps, your websites should be accessible from:
+
+1. http://yourdomain.com
+2. http://www.yourdomain.com
 
 **Domain changes take between a few minutes to a few hours to take effect**
 

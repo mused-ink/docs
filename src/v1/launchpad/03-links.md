@@ -4,6 +4,8 @@ type: launchpad
 order: 4
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ef4K-IerdvY" frameborder="0" allowfullscreen></iframe>
+
 Websites usually contain links to other webpages within the same website or external links to other websites.
 `Launchpad` enables you to create both internal and external links.
 
@@ -35,6 +37,8 @@ You can create links between different `Artboards` (`Webpages`).
 ![](/docs/images/launchpad/create-anchor-link.gif)
 
 ## External Links
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-KgpBUtMQE" frameborder="0" allowfullscreen></iframe>
 
 Many times you would want to create links to external websites that aren't a part of your website.
 A great example are links to social media websites - Facebook, Twitter, etc..

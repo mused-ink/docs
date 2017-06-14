@@ -1,7 +1,7 @@
 ---
 title: Videos
 type: launchpad
-order: 5
+order: 6
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6GNAbZy4QsU" frameborder="0" allowfullscreen></iframe>

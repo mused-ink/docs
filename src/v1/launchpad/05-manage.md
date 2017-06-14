@@ -1,7 +1,7 @@
 ---
 title: Manage Website
 type: launchpad
-order: 7
+order: 9
 ---
 
 `Manage Site`

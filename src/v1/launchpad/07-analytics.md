@@ -1,8 +1,10 @@
 ---
 title: Analytics
 type: launchpad
-order: 10
+order: 11
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/74B8ZM84Zvk" frameborder="0" allowfullscreen></iframe>
 
 To track incoming traffic into your website you can signup to any of the Analytics providers and paste in the code snippet they provide.
 
