@@ -8,7 +8,7 @@ order: 3
 
 ![](/docs/images/pins-simple.png)
 
-Simple pinning allows to pin a layer to its parent with the following:
+Simple pinning allows you to pin a layer to its parent with the following:
 
 * Top
 * Right
@@ -31,7 +31,7 @@ Once a pin is set, Auto-Layout will enforce the pin value when the artboard is r
 
 * A `Layer` is always pinned to its `Parent`
 * A parent can be either an `Artboard` or a `Group`
-* Pinning betweein siblins can be achieved using `Stacks`
+* Pinning between siblings can be achieved using `Stacks`
 
 `Layer` in an `Artboard`
 ![](/docs/images/pins1.png)
